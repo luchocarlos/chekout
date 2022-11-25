@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1  " />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Ckeck out</h1>
+    <div class="contenedor">
+        <div class="form_contac">
+            <form class="contacto">
+                <p class="subcont">Contac information</p>
+                <label>E-mail</label>
+                <input type="email" name="email" id="email"
+                placeholder="&#9993;  Enter your email..">
+
+                <label for="">Phone</label>
+                <input type="text" name="phone" id="phone"
+                placeholder="&#128222;  Enter your phone..">
+
+                <p class="medium">Shipping addres</p>
+                <label>Full name</label>
+                <input type="text" name="name" id="name"
+                placeholder="&#128100;  Your name..">    
+                <label>Adress</label>
+                <input type="text" name="street" id="street"
+                placeholder="&#127968;  Your street..">       
+                <label>City</label>
+                <input type="text" name="city" id="city"
+                placeholder="&#127970; Your city..">    
+                <label>Country</label>
+                <input type="text" name="country" id="country"
+                placeholder="&#127758;  Your country..">      
+                <label>Postal code</label>
+                <input type="text" name="postalcode" id="postalcode"
+                placeholder="&#128235;  Your postal code..">
+                <label><input type="checkbox" name="save" id="save">
+                Save this information for next time</label>
+
+                <button id="btn" value="btn">Continue</button>
+            </form>
+
+        </div>
+
+        <div class="form_its">
+                <form class="others" >
+                    <img src="photo1.png" class="photo"></img>
+                    <label>Vintage Backbag</label>
+                    <p class="costos">$54.99<p class="antes"><s>$94.99</s></p></p>
+                    <div class="bton">
+                        <input type="button" value="-" class="less">
+                        <p id="quantity1">  1 </p>
+                        <input type="button" value="+" class="more">
+                    </div>
+                
+        
+                    <img src="photo2.png" class="photo"></img>
+                    <label>Levi Shoes</label>
+                    <p class="costos">$74.99<p class="antes"><s>$124.99</s></p></p>
+                    <div class="bton2">
+                        <input type="button" value="-" class="less">
+                        <p id="quantity2">  1 </p>
+                        <input type="button" value="+" class="more">
+                    </div>
+                    <hr class="hr1">
+                    <p class="shipping">Shipping<p class="envio">$19</p></p>
+                    <hr class="hr2">
+                    <p id="total" class="total">Total</p>
+                </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>create by luchocarlos - devChallengues.io</p>
+    </footer>
+
+    <script src="./func.js" ></script>
+     
+</body>
+
